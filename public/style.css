@@ -1,0 +1,9 @@
+.todo-list {
+  width: 300px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+.submit {
+  margin-left: 20px;
+}

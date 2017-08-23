@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TODO list</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>TODO list</h1>
+    <form action="/" method="post">
+      <input type="input" placeholder="new todo here and press Enter" class="todo-list" name="list">
+      <input type="submit" value="Add" class="submit">
+    </form>
+    <% if(lists) { %>
+    <ul>
+       <% for(list in lists) { %>
+        <li><%= lists[list] %></li>
+       <% } %>
+    </ul>
+    <% } %>
+  </body>
+</html>

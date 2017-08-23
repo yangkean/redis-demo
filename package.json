@@ -1,0 +1,28 @@
+{
+  "name": "redis-demo",
+  "version": "1.0.0",
+  "description": "a TODO app using node, koa and redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "redis",
+    "koa",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "koa-views": "^6.0.2",
+    "redis": "^2.8.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
